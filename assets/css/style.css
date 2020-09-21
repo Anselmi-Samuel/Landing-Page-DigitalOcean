@@ -1,0 +1,248 @@
+/* Bar */
+.bar{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(209, 203, 203);
+}
+
+.bar-link{
+    color: rgb(71, 69, 69);
+    font-size: 14px;
+}
+
+.bar-link:hover{
+    color: #125AF3;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #fff;
+    top: 30px;
+    padding: 15px 0;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .navbar .container {
+    padding: 0 15px;
+  }
+
+@media(max-width: 1000px){
+    .bar{
+        display: none;
+    }
+    .navbar {
+        top: 0;
+        position: fixed;
+        background-color: #fff;
+        padding: 15px 0;
+        margin-top: 0;
+      }
+}
+
+.logo{
+    max-width: 170px;
+    margin-right: 50px;
+}  
+
+.nav-navbar{
+    margin-top: 8px;
+}
+
+.nav-link{
+    font-weight: 600;
+    color: hsl(221,93%,16%) !important;
+}
+  
+.nav-link:hover {
+    color: #006aff !important;
+}
+  
+.btn-navbar{
+    padding: 5px 15px;
+    color: #006aff;
+    background-color: #fff;
+    border: solid 1px #006aff;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Hero */
+
+.hero{
+    background-color: #006aff;
+    margin-top: 100px;
+    padding-bottom: 10%;
+}
+
+@media(max-width: 1000px){
+    .hero{
+        margin-top: 50px;
+    }
+}
+
+.contenedor-title-hero{
+    padding-top: 15%;
+}
+
+.hero-title{
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+@media(max-width: 1000px){
+    .contenedor-title-hero{
+        text-align: center;
+    }
+    .hero-title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .hero-subtitle{
+        text-align: center;
+        font-size: 14px;
+    }
+
+}
+
+/* Footer principal */
+
+.footer-principal{
+    background-color: black;
+    padding: 60px 0;
+}
+
+.titulo-footer-principal{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titulo-footer-principal h4{
+    color: #fff;
+    font-size: 40px;
+}
+
+.container-btn-footer-principal{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-footer-principal{
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px;
+    transition: .3s ease-in-out;
+}
+
+.btn-footer-principal:hover{
+    text-decoration: none;
+    background-color: #BBBBBB;
+}
+
+@media(max-width: 1000px){
+    .titulo-footer-principal,
+    .container-btn-footer-principal{
+        display: flex;
+        justify-content: center;
+    }
+    .container-btn-footer-principal{
+        margin-top: 15px;
+    }
+}
+
+/* Footer Superior */
+
+.footer-superior{
+    background-color:  hsl(220,95%,8%);
+    padding: 50px 0;
+}
+
+.footer-superior p{
+    color: hsla(0,0%,100%,0.5);
+    padding-left: 40px;
+}
+
+.footer-superior ul{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.footer-superior ul a{
+    color: hsla(0,0%,100%,0.5);
+    transition: .3s ease-in-out;
+}
+
+.footer-superior ul a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* footer inferior */
+
+.footer-inferior {
+    background-color: hsl(220,95%,8%);
+    padding: 35px 0;
+  }
+
+.linea-top{
+    border-top: solid 1px hsla(0,0%,100%,0.5);
+}  
+  
+.container-texto-footer{
+    color: hsla(0,0%,100%,0.5);
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parrafo-footer{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.container-link-footer{
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-inferior a{
+    padding-right: 15px;
+    font-size: 25px;
+    color: hsla(0,0%,100%,0.5);
+    transition: .3s ease-in-out;
+}
+
+.footer-inferior a:hover{
+    color: #fff;
+}
+
+@media(max-width:1000px){
+    .container-texto-footer,
+     .container-link-footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-texto-footer{
+        font-size: 14px;
+    }
+}
